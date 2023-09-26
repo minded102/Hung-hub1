@@ -26,6 +26,7 @@ end)
 local Megajum = main:Button("Mega Jump", function()
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
 end)
+
 Hint.Text = "++Menu | Loaded!"
 wait(1.5)
 Hint:Destroy()
