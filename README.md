@@ -3,7 +3,7 @@ Hint.Text = "++Menu | Loading..."
 wait(1.3)
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = library:CreateWindow("Hung hub")
-local Playset = main:Section("++Menu")
+local Playset = main:Section("++Menu credit dokinbog")
 
 local button1 = main:Button("Suicide", function()
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
